@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.the_youthempire">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Team"></activity>
+        <activity android:name=".Order" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Extra_earn" />
+        <activity android:name=".Razorpay" />
+        <activity android:name=".Headphone" />
+        <activity android:name=".Torch" />
+        <activity android:name=".Powerbank" />
+        <activity android:name=".Zebronics" />
+        <activity android:name=".Dublin_phone" />
+        <activity
+            android:name=".Task"
+            android:label="TASK" />
+        <activity
+            android:name=".BuyProduct"
+            android:label="" />
+        <activity
+            android:name=".Product"
+            android:label="PRODUCT" />
+        <activity
+            android:name=".wallet"
+            android:label="WALLET" />
+        <activity
+            android:name=".Profile"
+            android:label="MY PROFILE" />
+        <activity android:name=".Home" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".YouthEmpire"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7628175294447075~5547668559" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

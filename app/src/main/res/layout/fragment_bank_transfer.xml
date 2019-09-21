@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bank_transfer"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/acc_hol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account holder's name"
+        android:background="@drawable/log_white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/acc_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account Number"
+        android:background="@drawable/log_white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/bank_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bank Name"
+        android:background="@drawable/log_white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Branch Name"
+        android:background="@drawable/log_white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/ifse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IFSC Code"
+        android:background="@drawable/log_white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:id="@+id/bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/log_button"
+        android:layout_marginTop="25dp"
+        android:text="Withdraw"
+        android:textAllCaps="false"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">YouthEmpire</string>
+    <string name="title_activity_youth_empire_login">YouthEmpire_login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="admob_interstitial_id">
+        ca-app-pub-7628175294447075/9674615829</string>
+    <string name="admob_app_id">
+        ca-app-pub-7628175294447075~5547668559</string>
+
+    <string name="impossible_game">Impossible Game</string>
+    <string name="retry_button_text">Retry</string>
+    <string name="watch_video_button_text">Watch Video for 10 additional coins</string>
+    <string name="default_coin_text">Coins: 0</string>
+</resources>
